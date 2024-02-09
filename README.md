@@ -10,9 +10,9 @@ This **development container** is a running container with a well-defined Weik.i
 
 Here are the login details for Weik.io instance running in the Devcontainer:
 
-Username: dev@weik.io
-Password: password
-ApiKey: api.key
+* Username: dev@weik.io
+* Password: password
+* ApiKey: api.key
 
 The Weik.io CLI is configured with the local environment.
 
