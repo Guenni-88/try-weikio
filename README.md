@@ -6,6 +6,10 @@ Weik.io Integration Development container is for Architects and Developers build
 
 This **development container** is a running container with a well-defined Weik.io tool/runtime stack and its prerequisites. You can try out development containers with **[GitHub Codespaces](https://github.com/features/codespaces)** or **[Visual Studio Code Dev Containers](https://aka.ms/vscode-remote/containers)**.
 
+## Note
+
+VS Code sometimes likes to cache the Development Container files. If you have issues running the devcontainer directly from VS Code, you can try cloning this repository and then opening it through VS Code as a Devcontainer.
+
 ## Login details
 
 Here are the login details for Weik.io instance running in the Devcontainer:
