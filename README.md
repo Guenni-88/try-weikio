@@ -52,11 +52,13 @@ Once you have this sample opened, you'll be able to work with it like you would 
 
 Some things to try:
 
-1. Create new integration
-2. Develop and test the new integration
-3. Publish the integration to Weik.io
-4. Run the integration
-5. View the integration in Weik.io UI
+1. Create new integration: <code>weikio integration init my-integration</code>
+2. Develop and test the new integration: <code>weikio integration run my-integration</code>
+3. Publish the integration to Weik.io: <code>weikio integration push my-integration</code>
+4. Start the integration: <code>weikio integration flows start my-integration</code>
+5. View the integration in Weik.io UI: Open port forwarding to ui:80 and login with dev@weik.io/password
+
+![image](https://github.com/user-attachments/assets/421565da-4143-44e7-a4b4-925fc8571dbd)
 
 ## License
 
