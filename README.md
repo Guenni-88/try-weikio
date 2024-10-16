@@ -10,6 +10,8 @@ This **development container** is a running container with a well-defined Weik.i
 
 VS Code sometimes likes to cache the Development Container files. If you have issues running the devcontainer directly from VS Code, you can try cloning this repository and then opening it through VS Code as a Devcontainer.
 
+Alternatively make sure to delete the devcontainer volumes to start fresh.
+
 ## Login details
 
 Here are the login details for Weik.io instance running in the Devcontainer:
