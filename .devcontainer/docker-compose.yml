@@ -29,8 +29,11 @@ services:
       - 'Weikio__Identity__LocalIdentity__Password=password'
       - 'Weikio__Identity__LocalIdentity__ApiKey=api.key'
       - 'Weikio__Nats__Url=nats://nats:4222'
+      - 'ASPNETCORE_URLS=http://*:80'      
     depends_on:
       - nats
+    ports:
+      - 80      
     networks:
       - weikio-devcontainer      
     volumes:
@@ -42,12 +45,15 @@ services:
       - 'WEIKIO_HOME=/etc/weikio'
       - 'ASPNETCORE_ENVIRONMENT=Development'
       - 'Weikio__Server__BaseAddress=http://backend/'
+      - 'ASPNETCORE_URLS=http://*:80'      
     depends_on:
       - backend
     networks:
       - weikio-devcontainer      
     volumes:
-      - local:/etc/weikio     
+      - local:/etc/weikio
+    ports:
+      - 80      
   agent:
     image: weikio/agent:dev
     restart: unless-stopped
