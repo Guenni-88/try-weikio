@@ -2,7 +2,7 @@
 
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/weikio/try-weikio)
 
-Weik.io Integration Development container is for Architects and Developers building integrations using the Weik.io Integration Platform.
+Weik.io Integration Development container is for Architects and Developers building integrations using the Weik.io Integration Platform. Learn more at https://weikio.com
 
 This **development container** is a running container with a well-defined Weik.io tool/runtime stack and its prerequisites. You can try out development containers with **[GitHub Codespaces](https://github.com/features/codespaces)** or **[Visual Studio Code Dev Containers](https://aka.ms/vscode-remote/containers)**.
 
